@@ -14,7 +14,7 @@
 
 <br>
 
-<security:authorize access="hasRole('Manager')">Only for Managers <input type="button" value="Performance"
+<security:authorize access="hasRole('MANAGER')">Only for Managers <input type="button" value="Performance"
        onclick="window.location.href= 'http://localhost:8080/spring/manager'"></security:authorize>
 <br>
 
